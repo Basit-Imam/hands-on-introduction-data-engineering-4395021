@@ -1,0 +1,126 @@
+[[34m2023-09-15 10:34:30,038[0m] {[34mscheduler_job.py:[0m714} INFO[0m - Starting the scheduler[0m
+[[34m2023-09-15 10:34:30,039[0m] {[34mscheduler_job.py:[0m719} INFO[0m - Processing each file at most -1 times[0m
+[[34m2023-09-15 10:34:30,041[0m] {[34mexecutor_loader.py:[0m107} INFO[0m - Loaded executor: SequentialExecutor[0m
+[[34m2023-09-15 10:34:30,044[0m] {[34mmanager.py:[0m163} INFO[0m - Launched DagFileProcessorManager with pid: 4986[0m
+[[34m2023-09-15 10:34:30,045[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-09-15 10:34:30,058[0m] {[34msettings.py:[0m58} INFO[0m - Configured default timezone Timezone('UTC')[0m
+[2023-09-15T10:34:30.075+0000] {manager.py:409} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2023-09-15 10:34:48,802[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+X-Forwarded-For: 10.240.2.37
+Referer: https://opulent-parakeet-rp9q5w74xpp25955.github.dev/
+X-Request-Id: 3b0e4507c108cad30521302b0bb904da
+X-Real-Ip: 10.240.2.37
+X-Forwarded-Proto: https
+X-Forwarded-Host: opulent-parakeet-rp9q5w74xpp25955-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-36f43ebd1a560bed6eac98dcc9675f44-fdc21100c054b4e1-00
+
+.[0m
+[[34m2023-09-15 10:34:48,803[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-09-15 10:34:49,009[0m] {[34mserve_logs.py:[0m60} WARNING[0m - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+X-Forwarded-For: 10.240.2.37
+Referer: https://opulent-parakeet-rp9q5w74xpp25955-8793.app.github.dev/
+X-Request-Id: 3d199758980cde5c776a81033400d306
+X-Real-Ip: 10.240.2.37
+X-Forwarded-Proto: https
+X-Forwarded-Host: opulent-parakeet-rp9q5w74xpp25955-8793.app.github.dev
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua: "Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+X-Original-Proto: http
+Proxy-Connection: Keep-Alive
+Traceparent: 00-c39f41213d6dfc45da359d6e21a8f9b1-04bbac0ee6e6f9ee-00
+
+.[0m
+[[34m2023-09-15 10:34:49,009[0m] {[34mserve_logs.py:[0m104} WARNING[0m - Unknown error[0m
+Traceback (most recent call last):
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/usr/local/python/3.10.8/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.[0m
+[[34m2023-09-15 10:39:30,181[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-09-15 10:44:30,246[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-09-15 10:49:30,310[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-09-15 10:53:01,229[0m] {[34mscheduler_job.py:[0m360} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: challenge_dag.extract_task manual__2023-09-15T10:53:00.771402+00:00 [scheduled]>[0m
+[[34m2023-09-15 10:53:01,229[0m] {[34mscheduler_job.py:[0m425} INFO[0m - DAG challenge_dag has 0/16 running and queued tasks[0m
+[[34m2023-09-15 10:53:01,229[0m] {[34mscheduler_job.py:[0m511} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: challenge_dag.extract_task manual__2023-09-15T10:53:00.771402+00:00 [scheduled]>[0m
+[[34m2023-09-15 10:53:01,231[0m] {[34mscheduler_job.py:[0m550} INFO[0m - Sending TaskInstanceKey(dag_id='challenge_dag', task_id='extract_task', run_id='manual__2023-09-15T10:53:00.771402+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default[0m
+[[34m2023-09-15 10:53:01,231[0m] {[34mbase_executor.py:[0m93} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'challenge_dag', 'extract_task', 'manual__2023-09-15T10:53:00.771402+00:00', '--local', '--subdir', 'DAGS_FOLDER/challenge_dag.py'][0m
+[[34m2023-09-15 10:53:01,264[0m] {[34msequential_executor.py:[0m61} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'challenge_dag', 'extract_task', 'manual__2023-09-15T10:53:00.771402+00:00', '--local', '--subdir', 'DAGS_FOLDER/challenge_dag.py'][0m
+[[34m2023-09-15 10:53:02,325[0m] {[34mdagbag.py:[0m538} INFO[0m - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py[0m
+[[34m2023-09-15 10:53:03,001[0m] {[34mtask_command.py:[0m388} INFO[0m - Running <TaskInstance: challenge_dag.extract_task manual__2023-09-15T10:53:00.771402+00:00 [queued]> on host codespaces-f88201[0m
+[[34m2023-09-15 10:53:06,653[0m] {[34mscheduler_job.py:[0m602} INFO[0m - Executor reports execution of challenge_dag.extract_task run_id=manual__2023-09-15T10:53:00.771402+00:00 exited with status success for try_number 1[0m
+[[34m2023-09-15 10:53:06,659[0m] {[34mscheduler_job.py:[0m645} INFO[0m - TaskInstance Finished: dag_id=challenge_dag, task_id=extract_task, run_id=manual__2023-09-15T10:53:00.771402+00:00, map_index=-1, run_start_date=2023-09-15 10:53:03.070418+00:00, run_end_date=2023-09-15 10:53:06.249536+00:00, run_duration=3.179118, state=success, executor_state=success, try_number=1, max_tries=0, job_id=2, pool=default_pool, queue=default, priority_weight=3, operator=BashOperator, queued_dttm=2023-09-15 10:53:01.230144+00:00, queued_by_job_id=1, pid=12378[0m
+[[34m2023-09-15 10:53:06,770[0m] {[34mscheduler_job.py:[0m360} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: challenge_dag.transform_task manual__2023-09-15T10:53:00.771402+00:00 [scheduled]>[0m
+[[34m2023-09-15 10:53:06,770[0m] {[34mscheduler_job.py:[0m425} INFO[0m - DAG challenge_dag has 0/16 running and queued tasks[0m
+[[34m2023-09-15 10:53:06,770[0m] {[34mscheduler_job.py:[0m511} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: challenge_dag.transform_task manual__2023-09-15T10:53:00.771402+00:00 [scheduled]>[0m
+[[34m2023-09-15 10:53:06,771[0m] {[34mscheduler_job.py:[0m550} INFO[0m - Sending TaskInstanceKey(dag_id='challenge_dag', task_id='transform_task', run_id='manual__2023-09-15T10:53:00.771402+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default[0m
+[[34m2023-09-15 10:53:06,771[0m] {[34mbase_executor.py:[0m93} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'challenge_dag', 'transform_task', 'manual__2023-09-15T10:53:00.771402+00:00', '--local', '--subdir', 'DAGS_FOLDER/challenge_dag.py'][0m
+[[34m2023-09-15 10:53:06,805[0m] {[34msequential_executor.py:[0m61} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'challenge_dag', 'transform_task', 'manual__2023-09-15T10:53:00.771402+00:00', '--local', '--subdir', 'DAGS_FOLDER/challenge_dag.py'][0m
+[[34m2023-09-15 10:53:07,589[0m] {[34mdagbag.py:[0m538} INFO[0m - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py[0m
+[[34m2023-09-15 10:53:08,555[0m] {[34mtask_command.py:[0m388} INFO[0m - Running <TaskInstance: challenge_dag.transform_task manual__2023-09-15T10:53:00.771402+00:00 [queued]> on host codespaces-f88201[0m
+[[34m2023-09-15 10:53:09,656[0m] {[34mscheduler_job.py:[0m602} INFO[0m - Executor reports execution of challenge_dag.transform_task run_id=manual__2023-09-15T10:53:00.771402+00:00 exited with status success for try_number 1[0m
+[[34m2023-09-15 10:53:09,659[0m] {[34mscheduler_job.py:[0m645} INFO[0m - TaskInstance Finished: dag_id=challenge_dag, task_id=transform_task, run_id=manual__2023-09-15T10:53:00.771402+00:00, map_index=-1, run_start_date=2023-09-15 10:53:08.903798+00:00, run_end_date=2023-09-15 10:53:09.268894+00:00, run_duration=0.365096, state=success, executor_state=success, try_number=1, max_tries=0, job_id=3, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2023-09-15 10:53:06.770880+00:00, queued_by_job_id=1, pid=12411[0m
+[[34m2023-09-15 10:53:09,729[0m] {[34mscheduler_job.py:[0m360} INFO[0m - 1 tasks up for execution:
+	<TaskInstance: challenge_dag.load_task manual__2023-09-15T10:53:00.771402+00:00 [scheduled]>[0m
+[[34m2023-09-15 10:53:09,729[0m] {[34mscheduler_job.py:[0m425} INFO[0m - DAG challenge_dag has 0/16 running and queued tasks[0m
+[[34m2023-09-15 10:53:09,729[0m] {[34mscheduler_job.py:[0m511} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: challenge_dag.load_task manual__2023-09-15T10:53:00.771402+00:00 [scheduled]>[0m
+[[34m2023-09-15 10:53:09,730[0m] {[34mscheduler_job.py:[0m550} INFO[0m - Sending TaskInstanceKey(dag_id='challenge_dag', task_id='load_task', run_id='manual__2023-09-15T10:53:00.771402+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default[0m
+[[34m2023-09-15 10:53:09,730[0m] {[34mbase_executor.py:[0m93} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'challenge_dag', 'load_task', 'manual__2023-09-15T10:53:00.771402+00:00', '--local', '--subdir', 'DAGS_FOLDER/challenge_dag.py'][0m
+[[34m2023-09-15 10:53:09,776[0m] {[34msequential_executor.py:[0m61} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'challenge_dag', 'load_task', 'manual__2023-09-15T10:53:00.771402+00:00', '--local', '--subdir', 'DAGS_FOLDER/challenge_dag.py'][0m
+[[34m2023-09-15 10:53:10,557[0m] {[34mdagbag.py:[0m538} INFO[0m - Filling up the DagBag from /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/challenge_dag.py[0m
+[[34m2023-09-15 10:53:11,254[0m] {[34mtask_command.py:[0m388} INFO[0m - Running <TaskInstance: challenge_dag.load_task manual__2023-09-15T10:53:00.771402+00:00 [queued]> on host codespaces-f88201[0m
+[[34m2023-09-15 10:53:12,005[0m] {[34mscheduler_job.py:[0m602} INFO[0m - Executor reports execution of challenge_dag.load_task run_id=manual__2023-09-15T10:53:00.771402+00:00 exited with status success for try_number 1[0m
+[[34m2023-09-15 10:53:12,008[0m] {[34mscheduler_job.py:[0m645} INFO[0m - TaskInstance Finished: dag_id=challenge_dag, task_id=load_task, run_id=manual__2023-09-15T10:53:00.771402+00:00, map_index=-1, run_start_date=2023-09-15 10:53:11.312752+00:00, run_end_date=2023-09-15 10:53:11.662387+00:00, run_duration=0.349635, state=success, executor_state=success, try_number=1, max_tries=0, job_id=4, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2023-09-15 10:53:09.729807+00:00, queued_by_job_id=1, pid=12437[0m
+[[34m2023-09-15 10:53:12,080[0m] {[34mdagrun.py:[0m607} INFO[0m - Marking run <DagRun challenge_dag @ 2023-09-15 10:53:00.771402+00:00: manual__2023-09-15T10:53:00.771402+00:00, state:running, queued_at: 2023-09-15 10:53:00.819825+00:00. externally triggered: True> successful[0m
+[[34m2023-09-15 10:53:12,080[0m] {[34mdagrun.py:[0m658} INFO[0m - DagRun Finished: dag_id=challenge_dag, execution_date=2023-09-15 10:53:00.771402+00:00, run_id=manual__2023-09-15T10:53:00.771402+00:00, run_start_date=2023-09-15 10:53:01.133808+00:00, run_end_date=2023-09-15 10:53:12.080527+00:00, run_duration=10.946719, state=success, external_trigger=True, run_type=manual, data_interval_start=2023-09-15 10:53:00.771402+00:00, data_interval_end=2023-09-15 10:53:00.771402+00:00, dag_hash=3770470ed0fb627cd6867e406c0108d0[0m
+[[34m2023-09-15 10:53:12,082[0m] {[34mdag.py:[0m3437} INFO[0m - Setting next_dagrun for challenge_dag to None, run_after=None[0m
+[[34m2023-09-15 10:54:30,350[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-09-15 10:59:30,378[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-09-15 11:04:30,412[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-09-15 11:09:30,438[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-09-15 11:14:30,471[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2023-09-15 11:19:30,497[0m] {[34mscheduler_job.py:[0m1408} INFO[0m - Resetting orphaned tasks for active dag runs[0m
